@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PORTFOLIO</title>
+    <link rel="stylesheet" href="style_port.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <nav class="nav">
+        <h1 style="font-size: 40px; color: aqua;"><span>ABHILASH</span> REDDY</h1>
+        <ul>
+            <li><a href="#header">HOME</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#Contact">Contact</a></li>
+        </ul>
+    </nav>
+    <div id="header">
+        <div class="container">
+            <div class="row">
+                <div class="main-col-1">
+                    <div class="header-text">
+                        <h1>Hi, I'm <span>ABHILASH</span> <br>
+                            From Hyderabad
+                        </h1>
+                    </div>
+                    <h2 class="text-animation">
+                        I am a <span id="typings"></span>
+                    </h2>
+                    <a href="#header" class="btn" style="text-decoration: none; margin: 8% 0% 5% 20%;">Hire me</a><br>
+                    <a href="Abhilash_s_CV (1).pdf" class="btn" style="text-decoration: none; margin: 0% 0% 0% 16%;"
+                        id="myresume" onclick="openresume()">My Resume</a>
+                </div>
+                <div class="main-col-2">
+                    <div>
+                        <img src="white_port.jpg" alt="pass_img">
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+    <div id="about">
+        <div class="container2" style="margin-bottom: 10%;">
+            <div class="row">
+                <div class="about-col-11">
+                    <img src="flip.jpg" alt="my img supra">
+                </div>
+                <div class="about-col-2">
+                    <h1 style="color: aqua;">About Me</h1>
+                    <p style="text-align: justify; padding: 20px 30px 20px 30px; line-height: 1.5;">Hey there! I'm
+                        stepping into the world
+                        of web
+                        development with a fresh perspective and a lot of enthusiasm. I'm intrigued by how websites
+                        come
+                        together, blending creativity with tech savvy. As a newcomer in front-end web development,
+                        I'm
+                        excited to learn and grow, armed with HTML, CSS, JavaScript, and React. Beyond coding, I'm a
+                        creative thinker who enjoys collaborating with others. I believe that exceptional websites
+                        are
+                        about more than just lines of code they're about understanding people and crafting
+                        experiences
+                        that resonate. Join me on this thrilling journey as I explore the endless possibilities of
+                        web
+                        development!</p>
+                    <section id="tabs-section">
+                        <div class="tab-titles">
+                            <div class="tab-links active-link" onclick="opentab('skills')">Skills</div>
+                            <div class="tab-links" onclick="opentab('experience')">Experience</div>
+                            <div class="tab-links" onclick="opentab('education')">Education</div>
+                        </div>
+                    </section>
+
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>LANGUAGES</span><br>C, Python,Java, JavaScript</li>
+                            <li><span>FRONTEND TECHNOLOGIES</span><br>HTML, CSS, ReactJS, JavaScript
+                            </li>
+                            <li><span>DATABASE</span><br>MySQL</li>
+                            <li><span>DEVELOPER TOOLS</span><br>GitHub, Postman</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Code Clause</span><br />Web Development -Intern (July 2024 - August 2024)
+                            </li>
+                            <li><span>Oasis Infobyte</span><br />Web Development -Intern (July 2024 - August 2024)
+                            </li>
+                            <li><span>AICTE Cohort-9</span><br />Embeded System -Intern (July 2024 - October
+                                2024)</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>B.TECH</span><br>
+                                <span1 style="margin-right: 4em;">KL University Hyderabad</span1> CGPA: 7.46 (till
+                                6th
+                                sem)<br>2021-2025
+                            </li>
+                            <li><span>INTERMEDIATE</span><br>
+                                <span1 style="margin-right: 5.3em;">Mother Junior College</span1> CGPA:
+                                7.9<br>2019-2021
+                            </li>
+                            <li><span>SECONDARY</span><br>
+                                <span1 style="margin-right: 4.9em;">St. Adam's High School</span1>CGPA: 8.0</br>
+                                2019
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <h1><span style="display: flex;
+        flex-direction: column;
+        align-items: center;
+        color: aqua;">MY SKILL's</span></h1>
+    <div class="skill">
+        <li>
+            <h3>html</h3>
+            <span class="bar"><span class="html"></span></span>
+        </li>
+        <li>
+            <h3>css</h3>
+            <span class="bar"><span class="css"></span></span>
+        </li>
+        <li>
+            <h3>javascript</h3>
+            <span class="bar"><span class="javascript"></span></span>
+        </li>
+        <li>
+            <h3>java</h3>
+            <span class="bar"><span class="java"></span></span>
+        </li>
+        <li>
+            <h3>C</h3>
+            <span class="bar"><span class="C"></span></span>
+        </li>
+        <li>
+            <h3>python</h3>
+            <span class="bar"><span class="python"></span></span>
+        </li>
+    </div>
+
+    <div id="projects">
+        <div class="container3">
+            <h1><span
+                    style="display: flex; flex-direction: column; align-items: center; padding-top: 3%; color: aqua;">PROJECTS</span>
+            </h1>
+            <div class="slider">
+                <div class="item">
+                    <h1><span>Port</span>folio<br></h1>
+                    <p style="padding-top: 20%;">Explore my portfolio where i have showcased all
+                        my projects, join and learn with, and get in touch easily through my contact page, all
+                        developed
+                        with HTML, CSS, and JS.</p>
+                    <div class="tab-titles" style="padding-top: 10%;">
+                        <p class="tab-links active-link" onclick="opentab('date')">Date</p>
+                        <p class="tab-links" onclick="opentab('GitHub')">GitHub</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="date">
+                        <ul>
+                            <li>April 2024 - May 2024</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="GitHub">
+                        <ul>
+                            <li><a href="https://github.com/Acer252/Recipe-Book" style="color: white;">Click here to
+                                    visit the GitHub
+                                    Link!</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="item">
+                    <h1><span>Recipe</span>-Book<br></h1>
+                    <p style="padding-top: 20%;">Explore my Recipe Book website featuring a vast
+                        collection of delicious recipes. Easily add, edit, and view your favorite dishes. Developed
+                        with
+                        HTML, CSS, and JavaScript for a seamless and engaging user experience.</p>
+                    <div class="tab-titles">
+                        <p class="tab-links" onclick="opentab('date2')">Date</p>
+                        <p class="tab-links" onclick="opentab('GitHub2')">GitHub</p>
+                    </div>
+                    <div class="tab-contents" id="date2">
+                        <ul>
+                            <li>May 2024 - June 2024</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="GitHub2">
+                        <ul>
+                            <li><a href="https://github.com/Acer252/CodeClauseInternship_Recipe-Book"
+                                    style="color: white;">Click
+                                    here to
+                                    visit the GitHub Link!</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="item">
+                    <h1><span>Face Recognition &<br></span> Attendance
+                        Marking</span><br></h1>
+                    <p style="padding-top: 20%;">Explore my Python-based Face Recognition system
+                        with CSV file generation. Efficiently recognize faces and automatically create detailed CSV
+                        records, ensuring accurate and organized data management can be used in schools and
+                        colleges.
+                    </p>
+                    <div class="tab-titles">
+                        <p class="tab-links" onclick="opentab('date3')">Date</p>
+                        <p class="tab-links" onclick="opentab('GitHub3')">GitHub</p>
+                    </div>
+                    <div class="tab-contents" id="date3">
+                        <ul>
+                            <li>November 2022 - January 2023</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="GitHub3">
+                        <ul>
+                            <li><a href="https://github.com/Acer252/CodeClauseInternship_Recipe-Book"
+                                    style="color: white;">Click
+                                    here to
+                                    visit the GitHub Link!</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="item">
+                    <h1><span>Cryptographic</span><br>Algorithms</h1>
+                    <p style="padding-top: 20%;">String File Encryption and Decryption Using Java
+                        Programming. It includes the process of turning plaintext or information into ciphertext, or
+                        text that can only be deciphered by the intended recipient.</p>
+                    <div class="tab-titles">
+                        <p class="tab-links" onclick="opentab('date4')">Date</p>
+                        <p class="tab-links" onclick="opentab('GitHub4')">GitHub</p>
+                    </div>
+                    <div class="tab-contents" id="date4">
+                        <ul>
+                            <li>November 2023 - January 2024</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="GitHub4">
+                        <ul>
+                            <li><a href="https://github.com/Acer252/CodeClauseInternship_Recipe-Book"
+                                    style="color: white;">Click
+                                    here to
+                                    visit the GitHub Link!</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <button id="next">></button>
+                <button id="prev">
+                    < </button>
+            </div>
+        </div>
+
+    </div>
+
+    <div id="Contact">
+        <div class="container">
+            <article class="contact active" data-page="contact">
+
+                <header>
+                    <h1 class="h2 article-title"
+                        style="color: aqua ; font-size: 2em; display: flex; flex-direction: column; align-items: center;">
+                        CONTACT ME</h1>
+                </header>
+
+                <section class="mapbox" data-mapbox="">
+                    <figure>
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3807.9364341943638!2d78.42585177520989!3d17.366791483516927!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb974e81b0b78d%3A0xde0e7f8a32a43cda!2sAttapur!5e0!3m2!1sen!2sin!4v1715613958668!5m2!1sen!2sin"
+                            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </figure>
+
+                </section>
+
+                <section class="contact-form">
+
+                    <h1 style="padding: 5% 15% 5%;"><span>Enter your details below</span></h1>
+
+                    <form method="POST" class="form" id="form" data-form="">
+                        <input type="hidden" name="access_key" value="c294d6e4-7399-4827-9da4-76429e52b6a6">
+                        <input type="hidden" name="subject" value="My Portfolio">
+                        <div class="input-wrapper">
+                            <input type="text" name="fullname" class="form-input" placeholder="Full name" required=""
+                                data-form-input="">
+
+                            <input type="email" name="email" class="form-input" placeholder="Email address" required=""
+                                data-form-input="">
+                            <input type="tel" name="contact" class="form-input" placeholder="Mobile number" required=""
+                                data-form-input="">
+                        </div>
+
+                        <textarea name="message" class="form-input" placeholder="Your Message" required=""
+                            data-form-input=""></textarea>
+                        <input type="submit" value="Send message" class="btn" id="contactformsection"
+                            onclick="showMessage()">
+                        <div id="result"></div>
+                    </form>
+
+                </section>
+
+            </article>
+        </div>
+    </div>
+
+    <footer>
+        <div class="footerContainer">
+            <div class="socialIcons">
+                <div class="wrapper">
+                    <div class="button">
+                        <div class="icon">
+                            <i class="fab fa-linkedin"></i>
+                        </div>
+                        <span style="font-weight: bolder;"><a href="http://www.linkedin.com/in/mabhilash-reddy"
+                                style="text-decoration: none; color: inherit;">LinkedIn</a></span>
+                    </div>
+                    <div class="button">
+                        <div class="icon">
+                            <i class="fab fa-twitter"></i>
+                        </div>
+                        <span style="font-weight: bolder;"><a href="https://x.com/ABHILASH0234"
+                                style="text-decoration: none; color: inherit;">Twitter</a></span>
+                    </div>
+                    <div class="button">
+                        <div class="icon">
+                            <i class="fab fa-instagram"></i>
+                        </div>
+                        <span style="font-weight: bolder;"><a href="https://www.instagram.com/abhilash_2004/"
+                                style="text-decoration: none; color: inherit;">Instagram</a></span>
+                    </div>
+                    <div class="button">
+                        <div class="icon">
+                            <i class="fab fa-github"></i>
+                        </div>
+                        <span style="font-weight: bolder;"><a href="https://github.com/Acer252"
+                                style="text-decoration: none; color: inherit;">Github</a></span>
+                    </div>
+                    <div class="button">
+                        <div class="icon">
+                            <i class="fa-regular fa-envelope"></i>
+                        </div>
+                        <span style="font-weight: bolder;"><a href="mailto:aceraspire252@gmail.com"
+                                style="text-decoration: none; color: inherit;">G-Mail</a></span>
+                    </div>
+                </div>
+            </div>
+            <div class="footerNav">
+                <ul>
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#Contact">Contact Us</a></li>
+                    <li><a href="#header">our Team</a></li>
+                </ul>
+            </div>
+
+        </div>
+        <div class="footerBottom">
+            <p><span class="designer">ABHILASH REDDY</span> | Copyright &copy; 2024 | All Right's Reserved.</p>
+        </div>
+        <a href="https://wa.me/+917702163575" class="float" target="_blank"><i
+                class="fa-brands fa-whatsapp my-float"></i></a>
+    </footer>
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname) {
+            for (i of tablinks) {
+                i.classList.remove("active-link");
+            }
+
+            for (i of tabcontents) {
+                i.classList.remove("active-tab")
+            }
+
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab")
+        }
+    </script>
+    <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+    <script>
+        (function () {
+            emailjs.init("A-emE8dBxLcpdAjD9");
+        })();
+
+        document.addEventListener('DOMContentLoaded', (event) => {
+            const form = document.getElementById('form');
+            const sendButton = document.querySelector('.form-btn');
+
+            form.addEventListener('input', () => {
+                const isFormValid = form.checkValidity();
+                sendButton.disabled = !isFormValid;
+            });
+
+            form.addEventListener('submit', function (e) {
+                e.preventDefault();
+                sendEmail();
+            });
+        });
+
+        function sendEmail() {
+            emailjs.sendForm('service_c250lxt', 'template_7puawjy', '#form')
+                .then(function (response) {
+                    alert('Message sent successfully!');
+                    document.getElementById('form').reset();
+                }, function (error) {
+                    alert('Failed to send the message. Please try again.');
+                });
+        }
+
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname) {
+            for (let i of tablinks) {
+                i.classList.remove("active-link");
+            }
+
+            for (let i of tabcontents) {
+                i.classList.remove("active-tab")
+            }
+
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab")
+        }
+        alert
+    </script>
+    <script src="jsport.js"></script>
+</body>
+
+</html>

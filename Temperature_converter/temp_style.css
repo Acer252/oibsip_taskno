@@ -1,0 +1,61 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('temp4.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    position: fixed;
+    background: rgba(0, 0, 0, 0.6);
+    backdrop-filter: blur(30px);
+    padding: 20px;
+    margin-left: 50%;
+    border-radius: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    z-index: 10;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+.converter {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+input,
+select,
+button {
+    padding: 10px;
+    font-size: 16px;
+}
+
+button {
+    background-color: aquamarine;
+    font-weight: bolder;
+    color: black;
+    border: none;
+    border-radius: 30px;
+    margin: 2% 0% 0% 35%;
+    width: 30%;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: aquamarine;
+    box-shadow: 0 0 15px aqua;
+}
+
+#output {
+    margin-top: 20px;
+    font-size: 18px;
+}
